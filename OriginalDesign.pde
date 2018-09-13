@@ -10,7 +10,14 @@ void draw()
     dog(up);
     if(up < 300)
     {
+      earLeft(up);
+      head(up);
+      tounge(up);
+      nose(up);
+      earRight(up);
+      eyes(up);
       say(up);
+      
     }
     if(up < -200)
     {
@@ -25,7 +32,6 @@ void dog(int y)
   torso(y);
   earLeft(y);
   head(y);
-  tounge(y);
   nose(y);
   earRight(y);
   leg(1, y);
